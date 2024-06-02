@@ -1,19 +1,31 @@
-# Sentiment ML model
+# Sentiment ML Model
+
 This ML project is used to predict the text sentiment positive, negative, or neutral. It uses a [Reddit dataset](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Reddit_Data.csv) from Kaggle to train the model and make predictions on new/unseen data.
-### Quick Start
+
+## Local Development
+
 Install this project on your local machine and here are following steps.
 
-1. Run the following commands
+1. Clone or download this repository:
 
-```
-$ git clone https://github.com/nordszamora/sentiment
+   ```bash
+   git clone https://github.com/joaquinvaldezzz/sentiment.git
+   ```
 
-$ cd sentiment
+2. Go to the project directory:
 
-$ pip install -r requirements.txt
+   ```bash
+   cd sentiment
+   ```
 
-$ python manage.py collectstatic
+3. Install the required packages:
 
-$ python manage.py runserver
-```
-2. Open your browser and paste it on address bar http://localhost:8000
+   ```bash
+   pip install -r requirements.txt && npm install
+   ```
+
+4. Run the Django server by running the `dev` script:
+
+   ```bash
+   npm run dev
+   ```
