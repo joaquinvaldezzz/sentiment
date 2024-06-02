@@ -1,4 +1,8 @@
 *.pyc
+.DS_Store
+.venv
 __pycache__
 db.sqlite3
 media
+node_modules
+staticfiles_build
